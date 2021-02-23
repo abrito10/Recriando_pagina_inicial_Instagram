@@ -1,0 +1,48 @@
+
+/* media queries */
+@media (max-width:1024px){
+    .instagram-wrapper{
+       width: 95%; 
+    }
+}
+
+@media (max-width:840px){
+    .body {
+        border-color: #fff;
+    }
+    
+    .instagram-wrapper{
+       width: 60%; 
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+    
+}
+
+@media (max-width:500px){
+    .get-the-app {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 1.3rem 0;
+    }
+    
+    .app-download {
+        width: 100%;
+        flex: 0 1 auto;
+        flex-shrink: 0.3;    
+    }
+    
+}
